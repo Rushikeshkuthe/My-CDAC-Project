@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #f2f2f2;
+    }
+
+    .card {
+      margin: 0 auto;
+      float: none;
+      margin-top: 50px;
+    }
+
+    .card-header {
+      background-color: #17b89b;
+      border-radius: 25px;
+      color: white;
+      text-align: center;
+      font-size: 24px;
+    }
+
+    .card-body {
+      background-color: #f8f9fa;
+    }
+
+    .form-group {
+      margin-bottom: 25px;
+    }
+
+    .form-control {
+      background-color: #e9ecef;
+      border-radius: 20px;
+    }
+
+    .btn-primary {
+      background-color: #17b898;
+      border: none;
+      border-radius: 20px;
+      font-weight: bold;
+      width: 100%;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12 mx-auto">
+        <div class="card">
+          <div class="card-header" style="border-radius: 25px;">
+            Register
+          </div>
+          <div class="card-body">
+            <form>
+              <div class="form-group" style="flex-wrap: wrap;">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="fname" placeholder="Enter First name"><br>
+                <input type="text" class="form-control" id="mname" placeholder="Enter Middle name"><br>
+                <input type="text" class="form-control" id="lname" placeholder="Enter Last name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label for="dob">DOB</label>
+                <input type="date" class="form-control" id="dob" placeholder="Date of Birth">
+              </div>
+              <div class="form-group">
+                <label for="aadhaar">Aadhaar no.</label>
+                <input type="number" class="form-control" id="aadhaar" placeholder="Enter Aadhaar no.">
+              </div>
+              <div class="form-group">
+                <label for="mobileno">Contact No.</label>
+                <input type="password" class="form-control" id="mobileno" placeholder="mobile Number">
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" class="form-control" id="confirm-password" placeholder="Confirm Password">
+              </div>
+              <button type="submit" href="login.html" class="btn btn-primary">Register</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
